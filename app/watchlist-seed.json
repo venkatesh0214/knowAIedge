@@ -1,0 +1,386 @@
+{
+  "updatedAt": "2026-10-21T04:33:21.865805+00:00",
+  "videos": [
+    {
+      "id": "qYNweeDHiyU",
+      "title": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+      "channel": "IBM Technology",
+      "topics": [
+        "AI",
+        "ML",
+        "Deep Learning",
+        "GenAI"
+      ],
+      "level": "Beginner",
+      "format": "Explainer",
+      "why": "A useful starting point for separating AI, machine learning, deep learning and generative AI.",
+      "source": "https://www.youtube.com/watch?v=qYNweeDHiyU",
+      "publishedAt": "2024-08-05",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "aircAruvnKk",
+      "title": "But what is a neural network? | Deep learning chapter 1",
+      "channel": "3Blue1Brown",
+      "topics": [
+        "ML",
+        "Deep Learning"
+      ],
+      "level": "Beginner",
+      "format": "Explainer",
+      "why": "Build visual intuition for neurons and weights through handwritten-digit recognition.",
+      "source": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "publishedAt": "2017-10-05",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "LPZh9BOjkQs",
+      "title": "Large Language Models explained briefly",
+      "channel": "3Blue1Brown",
+      "topics": [
+        "LLMs",
+        "GenAI"
+      ],
+      "level": "Beginner",
+      "format": "Explainer",
+      "why": "A compact visual introduction to language models before moving into their architecture.",
+      "source": "https://www.youtube.com/watch?v=LPZh9BOjkQs",
+      "publishedAt": null,
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "wjZofJX0v4M",
+      "title": "Transformers, the tech behind LLMs | Deep Learning Chapter 5",
+      "channel": "3Blue1Brown",
+      "topics": [
+        "LLMs",
+        "Deep Learning",
+        "Embeddings"
+      ],
+      "level": "Intermediate",
+      "format": "Explainer",
+      "why": "Follow the flow of information through a transformer, including embeddings and token prediction.",
+      "source": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+      "publishedAt": "2024-04-01",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "kCc8FmEb1nY",
+      "title": "Let's build GPT: from scratch, in code, spelled out.",
+      "channel": "Andrej Karpathy",
+      "topics": [
+        "LLMs",
+        "Deep Learning",
+        "GenAI"
+      ],
+      "level": "Advanced",
+      "format": "Tutorial",
+      "why": "Work through the code behind a small GPT-style model. Best approached with Python and neural-network basics.",
+      "source": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+      "publishedAt": null,
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "T-D1OfcDW1M",
+      "title": "What is Retrieval-Augmented Generation (RAG)?",
+      "channel": "IBM Technology",
+      "topics": [
+        "RAG",
+        "LLMs"
+      ],
+      "level": "Beginner",
+      "format": "Explainer",
+      "why": "Understand how retrieval supplies external context to a language model, and why source grounding matters.",
+      "source": "https://www.youtube.com/watch?v=T-D1OfcDW1M",
+      "publishedAt": "2023-08-23",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "LpKGm1jJXv4",
+      "title": "Setting up Retrieval Augmented Generation (RAG) in 3 Steps",
+      "channel": "IBM Technology",
+      "topics": [
+        "RAG",
+        "Vector Search"
+      ],
+      "level": "Intermediate",
+      "format": "Tutorial",
+      "why": "Move from the RAG concept to a simple implementation workflow. Tool details reflect the original release.",
+      "source": "https://www.youtube.com/watch?v=LpKGm1jJXv4",
+      "publishedAt": "2024-09-12",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "CQywdSdi5iA",
+      "title": "The Model Context Protocol (MCP)",
+      "channel": "Anthropic",
+      "topics": [
+        "MCP",
+        "AI Agents"
+      ],
+      "level": "Intermediate",
+      "format": "Discussion",
+      "why": "Hear the original MCP team discuss the protocol, its components and ways to get started.",
+      "source": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+      "publishedAt": "2025-06-16",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "Fbr_Solax1w",
+      "title": "Introduction to Agent2Agent (A2A) Protocol",
+      "channel": "Google Cloud Tech",
+      "topics": [
+        "A2A",
+        "Multi-Agent Systems",
+        "AI Agents"
+      ],
+      "level": "Intermediate",
+      "format": "Explainer",
+      "why": "An introduction from Google Cloud to communication between independently built agents.",
+      "source": "https://www.youtube.com/watch?v=Fbr_Solax1w",
+      "publishedAt": "2026-02-06",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "XFCkrYHHfpQ",
+      "title": "How Agents Use Context Engineering",
+      "channel": "LangChain",
+      "topics": [
+        "Context Engineering",
+        "AI Agents",
+        "Multi-Agent Systems"
+      ],
+      "level": "Intermediate",
+      "format": "Explainer",
+      "why": "Explore context offloading, reduction and isolation as agent tasks grow longer.",
+      "source": "https://www.youtube.com/watch?v=XFCkrYHHfpQ",
+      "publishedAt": "2025-11-12",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "T9aRN5JkmL8",
+      "title": "AI prompt engineering: A deep dive",
+      "channel": "Anthropic",
+      "topics": [
+        "Prompt Engineering",
+        "LLMs"
+      ],
+      "level": "Intermediate",
+      "format": "Discussion",
+      "why": "Anthropic practitioners discuss prompt design, iteration and the limits of prompting.",
+      "source": "https://www.youtube.com/watch?v=T9aRN5JkmL8",
+      "publishedAt": "2024-09-05",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "0Wwn5IEqFcg",
+      "title": "Small vs. Large AI Models: Trade-offs & Use Cases Explained",
+      "channel": "IBM Technology",
+      "topics": [
+        "SLMs",
+        "LLMs"
+      ],
+      "level": "Beginner",
+      "format": "Explainer",
+      "why": "Compare the practical trade-offs of small and large models, rather than assuming larger is always better.",
+      "source": "https://www.youtube.com/watch?v=0Wwn5IEqFcg",
+      "publishedAt": "2025-06-10",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "J51oZYcNvP8",
+      "title": "What is Multimodal AI? How LLMs Process Text, Images, and More",
+      "channel": "IBM Technology",
+      "topics": [
+        "Multimodal AI",
+        "LLMs",
+        "GenAI"
+      ],
+      "level": "Intermediate",
+      "format": "Explainer",
+      "why": "An introduction to handling text, images and other modalities in shared AI systems.",
+      "source": "https://www.youtube.com/watch?v=J51oZYcNvP8",
+      "publishedAt": "2026-04-06",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "t9IDoenf-lo",
+      "title": "What is a Vector Database?",
+      "channel": "IBM Technology",
+      "topics": [
+        "Embeddings",
+        "Vector Search"
+      ],
+      "level": "Beginner",
+      "format": "Explainer",
+      "why": "Connect the idea of vector embeddings to the databases that store and search them.",
+      "source": "https://www.youtube.com/watch?v=t9IDoenf-lo",
+      "publishedAt": "2024-03-04",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "-W2JdSl1v48",
+      "title": "Is Fine-Tuning Still Needed? LLMs, RAG, & LoRA",
+      "channel": "IBM Technology",
+      "topics": [
+        "Fine-Tuning",
+        "RAG",
+        "LLMs"
+      ],
+      "level": "Intermediate",
+      "format": "Explainer",
+      "why": "Consider when fine-tuning, retrieval or parameter-efficient adaptation fits a model customization task.",
+      "source": "https://www.youtube.com/watch?v=-W2JdSl1v48",
+      "publishedAt": "2026-07-21",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "_QozKR9eQE8",
+      "title": "Beginner's Guide to Agent Evaluations",
+      "channel": "LangChain",
+      "topics": [
+        "AI Evaluations",
+        "AI Agents"
+      ],
+      "level": "Intermediate",
+      "format": "Tutorial",
+      "why": "A customer-support agent example introduces ways to test behavior and assess performance.",
+      "source": "https://www.youtube.com/watch?v=_QozKR9eQE8",
+      "publishedAt": null,
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "Yt5JfeyLaHI",
+      "title": "AI Guardrails Explained: Build Safer Enterprise AI Apps, Copilots, and Agents",
+      "channel": "Prabhakar Reddy | Smart AI Solutions",
+      "topics": [
+        "AI Guardrails",
+        "AI Agents"
+      ],
+      "level": "Intermediate",
+      "format": "Explainer",
+      "why": "Explore checks around model and agent behavior, including content safety and prompt-injection risks.",
+      "source": "https://www.youtube.com/watch?v=Yt5JfeyLaHI",
+      "publishedAt": null,
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "cvPEiPt7HXo",
+      "title": "Large Language Model Operations (LLMOps) Explained",
+      "channel": "IBM Technology",
+      "topics": [
+        "LLMOps",
+        "LLMs"
+      ],
+      "level": "Intermediate",
+      "format": "Explainer",
+      "why": "Understand why operating LLM applications requires additional practices beyond traditional MLOps.",
+      "source": "https://www.youtube.com/watch?v=cvPEiPt7HXo",
+      "publishedAt": "2024-02-16",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "kJRgj58ujEk",
+      "title": "AgentOps: Operationalize AI Agents",
+      "channel": "Google Cloud Tech",
+      "topics": [
+        "AgentOps",
+        "AI Agents"
+      ],
+      "level": "Advanced",
+      "format": "Discussion",
+      "why": "Explore operational concerns for agents, including memory, interactions and production deployment.",
+      "source": "https://www.youtube.com/watch?v=kJRgj58ujEk",
+      "publishedAt": null,
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "4oC1ZKa9-Hs",
+      "title": "Fully local multi-agent systems with LangGraph",
+      "channel": "LangChain",
+      "topics": [
+        "Multi-Agent Systems",
+        "AI Agents"
+      ],
+      "level": "Advanced",
+      "format": "Tutorial",
+      "why": "A local LangGraph example makes coordination between specialized agents more concrete.",
+      "source": "https://www.youtube.com/watch?v=4oC1ZKa9-Hs",
+      "publishedAt": null,
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "2j26a5dmCnI",
+      "title": "The Power of AI Agents and Agentic AI Explained",
+      "channel": "IBM Technology",
+      "topics": [
+        "AI Agents",
+        "Agentic AI"
+      ],
+      "level": "Beginner",
+      "format": "Explainer",
+      "why": "A broad introduction to agents, connected workflows and the infrastructure around them.",
+      "source": "https://www.youtube.com/watch?v=2j26a5dmCnI",
+      "publishedAt": "2025-11-20",
+      "reviewBasis": "Title and description",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    },
+    {
+      "id": "oAI-5lhKWyU",
+      "title": "100x Faster? He Co-Created ChatGPT. Now He Built the Opposite: Meet Jev.",
+      "channel": "Reindent",
+      "topics": [
+        "Jev"
+      ],
+      "level": "Intermediate",
+      "format": "Discussion",
+      "why": "A launch analysis of Jev\u2019s structured decisions. Treat speed claims as vendor-reported, not an independent benchmark.",
+      "source": "https://reindent.com/articles/jev-typesafe-structured-decisions",
+      "publishedAt": "2026-09-16",
+      "reviewBasis": "Creator article",
+      "verifiedAt": "2026-10-21T04:33:21.865805+00:00",
+      "addedAt": "2026-10-21T04:33:21.865805+00:00"
+    }
+  ]
+}

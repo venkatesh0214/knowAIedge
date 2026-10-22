@@ -1,0 +1,538 @@
+{
+  "updatedAt": "2026-10-20T05:08:38.397887Z",
+  "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+  "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+  "records": [
+    {
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "provider": "OpenAI",
+      "releaseDate": "2026-09-29",
+      "releaseLabel": "API release",
+      "releaseSource": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "summary": "Updated Sol model for coding, computer use, and professional workflows. Independent scores below use the Codex harness at xhigh effort.",
+      "benchmarks": [
+        {
+          "name": "DeepSWE v1.1",
+          "score": "73%",
+          "setup": "Codex; xhigh reasoning; Artificial Analysis rounded displayed score.",
+          "attribution": "Independent",
+          "source": "https://artificialanalysis.ai/agents/coding-agents/comparisons/codex-vs-muse-code"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": "55%",
+          "setup": "Codex; xhigh reasoning; Artificial Analysis rounded displayed score.",
+          "attribution": "Independent",
+          "source": "https://artificialanalysis.ai/agents/coding-agents/comparisons/codex-vs-muse-code"
+        }
+      ],
+      "officialPrice": {
+        "input": 2,
+        "output": 10,
+        "note": "Standard API token rates. Cached input $0.10/M; long-context, speed tiers and tools may have different charges.",
+        "source": "https://openai.com/index/introducing-gpt-6-1-sol/"
+      },
+      "contextWindow": 1050000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-09-29T17:28:02Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1050000,
+      "routerPrice": {
+        "input": 2.0,
+        "output": 10.0,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/openai/gpt-6.1-sol"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "provider": "OpenAI",
+      "releaseDate": "2026-09-03",
+      "releaseLabel": "Initial rollout",
+      "releaseSource": "https://openai.com/index/gpt-6-astra/",
+      "summary": "Flagship model for demanding agentic work. Release began with selected organizations before wider access.",
+      "benchmarks": [
+        {
+          "name": "DeepSWE v1.1",
+          "score": "68%",
+          "setup": "Codex; max reasoning; Artificial Analysis rounded displayed score.",
+          "attribution": "Independent",
+          "source": "https://artificialanalysis.ai/agents/coding-agents/comparisons/codex-vs-muse-code"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": "56%",
+          "setup": "Codex; max reasoning; Artificial Analysis rounded displayed score.",
+          "attribution": "Independent",
+          "source": "https://artificialanalysis.ai/agents/coding-agents/comparisons/codex-vs-muse-code"
+        }
+      ],
+      "officialPrice": {
+        "input": 10,
+        "output": 50,
+        "note": "Standard API token rates; cached input $1/M. Tools and premium speed tiers cost extra.",
+        "source": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+      },
+      "contextWindow": 1050000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-09-04T20:13:58Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1050000,
+      "routerPrice": {
+        "input": 10.0,
+        "output": 50.0,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/openai/gpt-6-astra"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "provider": "OpenAI",
+      "releaseDate": "2026-09-22",
+      "releaseLabel": "API release",
+      "releaseSource": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "summary": "Lower-cost GPT-6 option for high-volume work. Benchmark runs below use different evaluation environments and should not be treated as one common ranking.",
+      "benchmarks": [
+        {
+          "name": "DeepSWE v1.1",
+          "score": "66.6%",
+          "setup": "OpenAI-reported; max reasoning effort.",
+          "attribution": "Vendor-reported",
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": "48.9%",
+          "setup": "Anthropic-reported comparison; offline subset; effort not stated in summary table.",
+          "attribution": "Vendor-reported",
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        }
+      ],
+      "officialPrice": {
+        "input": 0.1,
+        "output": 0.5,
+        "note": "Standard API token rates; cached input $0.01/M. Longer-context requests and other service tiers may differ.",
+        "source": "https://openai.com/index/introducing-gpt-6-1-sol/"
+      },
+      "contextWindow": 1050000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-09-22T18:13:06Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1050000,
+      "routerPrice": {
+        "input": 0.1,
+        "output": 0.5,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "name": "Claude Opus 5.5",
+      "provider": "Anthropic",
+      "releaseDate": "2026-09-22",
+      "releaseLabel": "API release",
+      "releaseSource": "https://www.anthropic.com/claude-opus-5-5",
+      "summary": "Claude model for complex coding and knowledge work. Evaluation results include production safeguards and fallback models where safeguards intervene.",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": "66.4%",
+          "setup": "Adaptive thinking; xhigh effort; production safeguards/fallbacks enabled.",
+          "attribution": "Vendor-reported",
+          "source": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "name": "FrontierCode v1.1 (Main)",
+          "score": "54.4%",
+          "setup": "Adaptive thinking; max effort; production safeguards/fallbacks enabled.",
+          "attribution": "Vendor-reported",
+          "source": "https://www.anthropic.com/claude-opus-5-5"
+        }
+      ],
+      "officialPrice": {
+        "input": 4,
+        "output": 20,
+        "note": "Standard rates; cached reads $0.20/M. Fast mode is $8 input / $40 output per million.",
+        "source": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "contextWindow": 1000000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-09-22T16:32:12Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1000000,
+      "routerPrice": {
+        "input": 4.0,
+        "output": 20.0,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
+      "provider": "Anthropic",
+      "releaseDate": "2026-09-28",
+      "releaseLabel": "API release",
+      "releaseSource": "https://www.anthropic.com/claude-sonnet-5-5",
+      "summary": "Claude model for everyday coding and professional tasks. Cache-read pricing was reduced again on October 7.",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": "70.6%",
+          "setup": "Anthropic release-table result; detailed harness settings in linked system card.",
+          "attribution": "Vendor-reported",
+          "source": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "name": "FrontierCode 1.1 (Main)",
+          "score": "46.2%",
+          "setup": "Max effort result in Anthropic release table.",
+          "attribution": "Vendor-reported",
+          "source": "https://www.anthropic.com/claude-sonnet-5-5"
+        }
+      ],
+      "officialPrice": {
+        "input": 2,
+        "output": 10,
+        "note": "Standard input/output rates; current cache reads $0.10/M after the October 7 reduction.",
+        "source": "https://www.anthropic.com/claude-haiku-5-5"
+      },
+      "contextWindow": 1000000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-09-28T18:04:46Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1000000,
+      "routerPrice": {
+        "input": 2.0,
+        "output": 10.0,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/anthropic/claude-sonnet-5.5"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "name": "Claude Haiku 5.5",
+      "provider": "Anthropic",
+      "releaseDate": "2026-10-07",
+      "releaseLabel": "API release",
+      "releaseSource": "https://www.anthropic.com/claude-haiku-5-5",
+      "summary": "Small Claude model for summaries, classification, subagents, and browser tasks. Pricing increases for prompts over 100,000 tokens.",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": "39.2%",
+          "setup": "Anthropic release-table result; detailed setup in linked system card.",
+          "attribution": "Vendor-reported",
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": "72.4%",
+          "setup": "Offline subset; Anthropic-reported result.",
+          "attribution": "Vendor-reported",
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        }
+      ],
+      "officialPrice": {
+        "input": 0.1,
+        "output": 0.5,
+        "note": "For prompts up to 100k tokens. Over 100k: $0.50 input / $2.50 output per million; caching billed separately.",
+        "source": "https://www.anthropic.com/claude-haiku-5-5"
+      },
+      "contextWindow": 1000000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-10-07T18:31:23Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1000000,
+      "routerPrice": {
+        "input": 0.1,
+        "output": 0.5,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/anthropic/claude-haiku-5.5"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "google/gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "provider": "Google",
+      "releaseDate": "2026-10-13",
+      "releaseLabel": "Public paid API availability",
+      "releaseSource": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+      "summary": "Gemini model for complex engineering and enterprise workflows. Initially announced for restricted access September 30; public developer availability began October 13.",
+      "benchmarks": [
+        {
+          "name": "DeepSWE v1.1",
+          "score": "77.9%",
+          "setup": "Google-reported launch evaluation; harness details not stated in article prose.",
+          "attribution": "Vendor-reported",
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "CWE-bench v1",
+          "score": "68%",
+          "setup": "Security-vulnerability remediation; Google-reported launch evaluation.",
+          "attribution": "Vendor-reported",
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        }
+      ],
+      "officialPrice": {
+        "input": 2,
+        "output": 10,
+        "note": "Introductory pricing; standard price after the introductory period is $4 input / $20 output per million. Cached input discounted 95%.",
+        "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      },
+      "contextWindow": 1048576,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-10-13T16:04:37Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1048576,
+      "routerPrice": {
+        "input": 2.0,
+        "output": 10.0,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/google/gemini-4-argon"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "provider": "DeepSeek",
+      "releaseDate": "2026-10-17",
+      "releaseLabel": "API snapshot update",
+      "releaseSource": "https://api-docs.deepseek.com/updates/",
+      "summary": "October 17 update to V4.1 Flash, served by the deepseek-flash alias. The original V4.1 Flash family was released September 10.",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": "42.3%",
+          "setup": "Claude Code harness; October 17 snapshot.",
+          "attribution": "Vendor-reported",
+          "source": "https://api-docs.deepseek.com/updates/"
+        },
+        {
+          "name": "DeepSWE v1.1",
+          "score": "77.0%",
+          "setup": "Mini-SWE-V2 harness; October 17 snapshot.",
+          "attribution": "Vendor-reported",
+          "source": "https://api-docs.deepseek.com/updates/"
+        }
+      ],
+      "officialPrice": {
+        "input": 0.15,
+        "output": 0.6,
+        "note": "Off-peak, uncached input. Peak: $0.30 input / $1.20 output per million; peak hours 01\u201304 and 06\u201310 UTC weekdays excluding Chinese holidays.",
+        "source": "https://api-docs.deepseek.com/quick_start/pricing/"
+      },
+      "contextWindow": 1000000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-10-17T08:27:04Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1048576,
+      "routerPrice": {
+        "input": 0.15,
+        "output": 0.6,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "mistralai/mistral-large-4-0",
+      "name": "Mistral Large 4",
+      "provider": "Mistral",
+      "releaseDate": "2026-10-06",
+      "releaseLabel": "Public API preview",
+      "releaseSource": "https://mistral.ai/news/mistral-large-4/",
+      "summary": "Multimodal Mistral preview. Weights were still planned for later in October at this check; preview availability is not an open-weight release.",
+      "benchmarks": [
+        {
+          "name": "Lakera B3 AI Security Benchmark",
+          "score": "93.3%",
+          "setup": "Attack resistance; Mistral-reported evaluation.",
+          "attribution": "Vendor-reported",
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "KORA Benchmark",
+          "score": "1.691 / 2",
+          "setup": "Mistral-reported score; 2 denotes exemplary behavior.",
+          "attribution": "Vendor-reported",
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        }
+      ],
+      "officialPrice": {
+        "input": 0.68,
+        "output": 2.09,
+        "note": "Current sale rates displayed in Mistral docs; regular listed rates $1.36 input / $4.18 output per million. Cached input $0.07/M sale rate.",
+        "source": "https://docs.mistral.ai/models/mistral-large-4-0"
+      },
+      "contextWindow": 1000000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-10-06T13:42:02Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1048576,
+      "routerPrice": {
+        "input": 0.68,
+        "output": 2.09,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/mistralai/mistral-large-4-0"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "meta/muse-wonder",
+      "name": "Muse Wonder",
+      "provider": "Meta",
+      "releaseDate": "2026-10-12",
+      "releaseLabel": "API preview",
+      "releaseSource": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "summary": "Multimodal agent model offered through Meta Model API and Muse Code. Muse Wonder Full is a separate subscription-only variant.",
+      "benchmarks": [
+        {
+          "name": "DeepSWE v1.1",
+          "score": "76%",
+          "setup": "Muse Code; max reasoning; Artificial Analysis rounded displayed score.",
+          "attribution": "Independent",
+          "source": "https://artificialanalysis.ai/agents/coding-agents/comparisons/antigravity-cli-vs-muse-code"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": "47%",
+          "setup": "Muse Code; max reasoning; Artificial Analysis rounded displayed score.",
+          "attribution": "Independent",
+          "source": "https://artificialanalysis.ai/agents/coding-agents/comparisons/antigravity-cli-vs-muse-code"
+        }
+      ],
+      "officialPrice": {
+        "input": 4,
+        "output": 20,
+        "note": "Meta Model API Standard mode; cached input $0.20/M. No long-context premium; web-search queries cost extra.",
+        "source": "https://dev.meta.ai/docs/pricing-rate-limits"
+      },
+      "contextWindow": 1048576,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-10-12T12:25:45Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 1048576,
+      "routerPrice": {
+        "input": 4.0,
+        "output": 20.0,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/meta/muse-wonder"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "qwen/qwen3.8-max",
+      "name": "Qwen3.8-Max",
+      "provider": "Alibaba / Qwen",
+      "releaseDate": "2026-08-03",
+      "releaseLabel": "API family announcement",
+      "releaseSource": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen3-8-max?_p_lc=1",
+      "summary": "Qwen flagship API family. Scores below describe the launch evaluation, not the later September 2 API snapshot; open weights differ from the hosted model.",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": "86.6%",
+          "setup": "Launch evaluation; Claude Code; avg@10; five-hour timeout; max_tokens 131072.",
+          "attribution": "Vendor-reported",
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": "56.6%",
+          "setup": "Launch evaluation; best of Claude Code/mini-SWE-agent; temperature 1.0; top_p .95; 256k context.",
+          "attribution": "Vendor-reported",
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        }
+      ],
+      "officialPrice": {
+        "input": 2,
+        "output": 6,
+        "note": "Singapore international API rate; US Virginia global rate is $1.65 input / $4.951 output per million. Region, caching and promotions affect prices.",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max"
+      },
+      "contextWindow": 1000000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "name": "Grok 4.7",
+      "provider": "SpaceXSI / xAI",
+      "releaseDate": "2026-09-21",
+      "releaseLabel": "API release",
+      "releaseSource": "https://x.ai/news/grok-4-7",
+      "summary": "Grok model for coding and knowledge work. Standard and faster serving variants have different prices.",
+      "benchmarks": [
+        {
+          "name": "CursorBench 4.0",
+          "score": "46.3%",
+          "setup": "Vendor-reported; xhigh reasoning effort.",
+          "attribution": "Vendor-reported",
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "DeepSWE v1.1",
+          "score": "71.0%",
+          "setup": "Vendor-reported; high reasoning effort, per table footnote.",
+          "attribution": "Vendor-reported",
+          "source": "https://x.ai/news/grok-4-7"
+        }
+      ],
+      "officialPrice": {
+        "input": 2,
+        "output": 6,
+        "note": "Starting standard API rates. Fast variant costs twice as much; long-context and tool charges may differ.",
+        "source": "https://x.ai/news/grok-4-7"
+      },
+      "contextWindow": 500000,
+      "researchCheckedAt": "2026-10-20T05:06:03.005Z",
+      "catalogCreatedAt": "2026-09-21T16:19:01Z",
+      "catalogCheckedAt": "2026-10-20T05:08:38.397887Z",
+      "routerAvailable": true,
+      "routerContextWindow": 500000,
+      "routerPrice": {
+        "input": 2.0,
+        "output": 6.0,
+        "note": "OpenRouter catalog base text rates. Routing, long-context tiers, caching, reasoning, image/audio and request fees may differ. See model details.",
+        "source": "https://openrouter.ai/x-ai/grok-4.7"
+      },
+      "lastChangeAt": "2026-10-20T05:08:38.397887Z",
+      "change": "Initial verified edition"
+    }
+  ],
+  "changes": []
+}

@@ -1,0 +1,59 @@
+{
+  "updatedAt": "2026-10-16T19:00:00Z",
+  "articles": [
+    {
+      "id": "meta-wonder",
+      "category": "AI tools",
+      "title": "Meta introduces Muse Wonder, its next chapter in AI agents",
+      "summary": "Meta has introduced Muse Wonder and Muse Wonder Full for personal and professional agent tasks. Its performance claims come from the company and should be weighed against independent evaluations.",
+      "source": "Meta",
+      "date": "2026-10-12",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    },
+    {
+      "id": "china-exports",
+      "category": "Industry",
+      "title": "China moves to tighten technology exports, including AI",
+      "summary": "AP reports that China is moving to restrict exports of sensitive technologies, including artificial intelligence, citing national security concerns.",
+      "source": "Associated Press",
+      "date": "2026-10-16",
+      "url": "https://apnews.com/article/5ac381c0c6d6628bbea2e0da7d855a5b"
+    },
+    {
+      "id": "robot-agents",
+      "category": "Robotics",
+      "title": "Nvidia\u2019s Huang sees a future for agents in robotics",
+      "summary": "At a London event, Jensen Huang discussed the potential of AI agents in robotics and research while calling for controls around their use.",
+      "source": "TechRadar",
+      "date": "2026-10-15",
+      "url": "https://www.techradar.com/pro/nvidia-ceo-jensen-huang-hails-openclaw-as-helping-the-future-of-robotics-but-calls-for-controls-so-we-can-realize-the-incredible-future-potential-of-the-technology-that-were-building"
+    },
+    {
+      "id": "math-instruments",
+      "category": "Research",
+      "title": "A new paper examines AI-generated mathematical ideas",
+      "summary": "A preprint explores mathematical instruments drawn from OpenAI\u2019s October release of AI-generated mathematics. Treat this as emerging research rather than a settled scientific result.",
+      "source": "arXiv",
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.17090"
+    },
+    {
+      "id": "coding-trends",
+      "category": "Coding",
+      "title": "Reading list: how agentic coding is changing development",
+      "summary": "Anthropic\u2019s 2026 report examines how coding agents are reshaping software work. This background reading provides context for the daily news cycle.",
+      "source": "Anthropic",
+      "date": "2026-02",
+      "url": "https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf"
+    },
+    {
+      "id": "muse-business",
+      "category": "AI tools",
+      "title": "Muse expands its focus to small businesses",
+      "summary": "Meta is positioning Muse as an assistant for small-business operations, extending its agent ambitions beyond individual consumers.",
+      "source": "Meta",
+      "date": "2026-09-29",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business"
+    }
+  ]
+}

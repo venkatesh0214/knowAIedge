@@ -1,0 +1,6 @@
+import {env} from "cloudflare:workers";
+import seed from "../../seed.json";
+import {viewer} from "../../admin-access";
+import {POST as record} from "../activity/route";
+export const dynamic="force-dynamic";
+export async function GET(request:Request){const id=new URL(request.url).searchParams.get("id");const bucket=(env as unknown as {BUCKET:R2Bucket}).BUCKET;const saved=await bucket.get("news/current.json");const feed=saved?await saved.json<typeof seed>():seed;let article=feed.articles.find(a=>a.id===id);const {user}=await viewer();if(!article&&user&&id){const previous=await bucket.get(`history/${encodeURIComponent(user.userId)}/${encodeURIComponent(id)}.json`);if(previous)article=await previous.json() as typeof article}if(!article||!article.url.startsWith("https://"))return new Response("Article not found",{status:404});if(user){const result=await record(new Request(request.url,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({type:"article",value:id})}));if(!result.ok)return new Response("Could not save this article. Please return to the feed and retry.",{status:503})}return new Response(null,{status:302,headers:{Location:article.url,"Cache-Control":"private, no-store","Referrer-Policy":"no-referrer"}})}
