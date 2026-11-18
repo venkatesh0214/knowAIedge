@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#123a32">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+  <title>knowAIedge</title>
+  <link rel="stylesheet" href="reader.css">
+  <script defer src="edition.js"></script>
+  <script defer src="model.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header><div class="mast"><div class="brand"><span class="spark" aria-hidden="true">✦</span> know<span class="ai">AI</span>edge</div><a href="https://knowaiedge.fyi/" class="site">Full site <span aria-hidden="true">↗</span></a></div></header>
+  <main id="main">
+    <div class="heading"><h1 id="heading">Daily briefing</h1><button id="refresh" type="button" aria-label="Refresh news feed"></button></div>
+    <p id="edition" class="edition"></p>
+    <p id="status" class="status" role="status"></p>
+    <div id="filters"><label class="sr" for="filter">Filter by topic</label><select id="filter"></select></div>
+    <section id="list" aria-label="Reading list"></section>
+    <button type="button" id="more" hidden>Show more</button>
+  </main>
+  <nav aria-label="Reader sections"><div id="tabs"></div></nav>
+  <div id="notice" role="status" class="sr"></div>
+</body>
+</html>

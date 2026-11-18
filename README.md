@@ -22,3 +22,7 @@ Agent schedules must be configured separately with the owner-authorized publishi
 - `node scripts/tests/watchlist.mjs`
 
 Third-party license notices are retained. No new license is granted for project-owned code by this export.
+
+## Mobile app
+
+The [hybrid iOS and Android reader](mobile/README.md) uses the site's public feeds and one bundled web interface. Native projects, build commands and offline behavior are documented in `mobile/`.
