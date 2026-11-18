@@ -33,6 +33,7 @@ public class ReaderActivity extends Activity {
 
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
+        if (android.os.Build.VERSION.SDK_INT >= 30) getWindow().setDecorFitsSystemWindows(false);
         FrameLayout host = new FrameLayout(this);
         host.setBackgroundColor(Color.rgb(24,70,58));
         host.setOnApplyWindowInsetsListener((view, insets) -> {

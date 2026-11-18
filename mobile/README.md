@@ -31,7 +31,9 @@ Edit the shared reader in `mobile/web`. Both native projects package that direct
 Run the reader checks with Node.js 22 or later from the repository root:
 
 ```sh
-node --test mobile/tests/*.cjs
+node --test mobile/tests/*.test.cjs
 ```
+
+The mobile build workflow also exercises a phone-sized Chromium viewport with the bundled edition and simulated online and offline responses.
 
 Mobile builds produce a debug APK for Android and a simulator app for iOS. App Store, TestFlight and Google Play distribution require separate signing and release steps.
