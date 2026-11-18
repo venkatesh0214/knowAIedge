@@ -1,0 +1,9 @@
+<resources>
+    <style name="ReaderTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">#F7FAF6</item>
+        <item name="android:statusBarColor">#18463A</item>
+        <item name="android:navigationBarColor">#18463A</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
