@@ -34,7 +34,7 @@ jobs:
         continue-on-error: true
         run: node mobile/tests/live-feeds.cjs
   ios:
-    runs-on: macos-15
+    runs-on: macos-26
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
@@ -48,3 +48,5 @@ jobs:
           name: knowAIedge-ios-simulator
           path: ${{ runner.temp }}/knowAIedge-simulator.zip
           if-no-files-found: error
+      - name: Launch the reader on an iPhone simulator
+        run: bash mobile/tests/ios-smoke.sh "$RUNNER_TEMP/reader-build/Build/Products/Debug-iphonesimulator/KnowAIedge.app"
